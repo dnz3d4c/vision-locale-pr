@@ -1,0 +1,26 @@
+local L = LibStub("AceLocale-3.0"):NewLocale("WowVision", "koKR")
+if not L then return end
+
+-- Group health monitor (retail/groupHealth)
+L["Group Health Monitor"] = "파티 및 공격대 생명력 모니터"
+L["Include Yourself"] = "자신 포함"
+L["Watch Party"] = "파티 감시"
+L["Watch Raid"] = "공격대 감시"
+L["Announce Full Health"] = "생명력 최대 알림"
+L["Announce Deaths"] = "사망 알림"
+L["Silent Out of Combat"] = "비전투 중 무음"
+L["Repeat Only After a Change"] = "변화가 있을 때만 반복"
+L["Raid Groups"] = "공격대 구성"
+L["Group %d"] = "%d 파티"
+L["Tanks"] = "방어 전담"
+L["Healers"] = "치유 전담"
+L["Damage Dealers"] = "공격 전담"
+L["No Role"] = "역할 없음"
+L["Repeat Below (percent)"] = "이 값 미만일 때 반복 (퍼센트)"
+L["Repeat Every (seconds, 0 is off)"] = "반복 간격 (초, 0은 끔)"
+L["Speak Group Health"] = "파티 및 공격대 생명력 읽기"
+L["Group health monitor unavailable here"] = "여기서는 파티 및 공격대 생명력 모니터 사용 불가"
+L["Nobody to watch"] = "감시할 대상 없음"
+L["This screen reader voice does not play the health pitch. For the pitch, choose a Windows voice such as Microsoft Zira in the Voice setting."] = "이 스크린 리더 음성은 생명력을 음높이로 들려주지 않습니다. 음높이를 들으려면 음성 설정에서 Microsoft Zira 같은 Windows 음성을 선택하십시오."
+L["dead"] = "죽음"
+L["full"] = "생명력 최대"

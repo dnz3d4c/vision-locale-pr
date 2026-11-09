@@ -1,0 +1,57 @@
+local L = LibStub("AceLocale-3.0"):NewLocale("WowVision", "koKR")
+if not L then return end
+
+L["Buffers"] = "버퍼"
+
+-- Bindings
+L["Previous Buffer Item"] = "이전 버퍼 항목"
+L["Next Buffer Item"] = "다음 버퍼 항목"
+L["Previous Buffer"] = "이전 버퍼"
+L["Next Buffer"] = "다음 버퍼"
+L["Previous Buffer Group"] = "이전 버퍼 그룹"
+L["Next Buffer Group"] = "다음 버퍼 그룹"
+L["Static Buffer"] = "고정 버퍼"
+L["Tracked Buffer"] = "추적 버퍼"
+L["Chat Tab Buffer"] = "대화 탭 버퍼"
+L["Chat Tab"] = "대화 탭"
+
+-- Aura buffers (core/buffers/types/AuraBuffer.lua)
+L["Aura Buffer"] = "오라 버퍼"
+L["Auras"] = "오라"
+L["Sources"] = "출처"
+L["Only My Auras"] = "내 오라만"
+L["Speak Time Remaining"] = "남은 시간 읽기"
+L["Speak Description"] = "설명 읽기"
+-- Aura buffer filters (the game's aura filter strings)
+L["Any"] = "전체"
+L["Only"] = "해당만"
+L["Not"] = "제외"
+L["Cast by Me"] = "내가 시전"
+L["Castable or Dispellable by Me"] = "내가 시전 가능 또는 무효화 가능"
+L["Cancelable"] = "취소 가능"
+L["Crowd Control"] = "군중 제어"
+L["Dispellable by My Group"] = "내 파티 또는 공격대가 무효화 가능"
+L["Dispellable"] = "무효화 가능"
+L["External Defensive"] = "외부 방어 능력"
+L["Big Defensive"] = "강력한 방어 능력"
+L["Shown on Raid Frames in Combat"] = "전투 중 공격대창에 표시"
+L["Important"] = "중요"
+L["Player Buffs"] = "플레이어 강화 효과"
+L["Player Debuffs"] = "플레이어 약화 효과"
+L["Target Buffs"] = "대상 강화 효과"
+L["Target Debuffs"] = "대상 약화 효과"
+L["Focus Buffs"] = "주시 대상 강화 효과"
+L["Focus Debuffs"] = "주시 대상 약화 효과"
+L["Pet Buffs"] = "소환수 강화 효과"
+L["Pet Debuffs"] = "소환수 약화 효과"
+L["no player"] = "플레이어 없음"
+L["no target"] = "대상 없음"
+L["no focus"] = "주시 대상 없음"
+L["no pet"] = "소환수 없음"
+L["stacks"] = "중첩"
+L["Gone"] = "사라짐"
+L["unavailable"] = "확인 불가"
+
+-- Dynamic Buffers
+L["General"] = "일반"
+L["Invert Item Direction"] = "항목 방향 반전"

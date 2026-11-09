@@ -1,0 +1,33 @@
+local L = LibStub("AceLocale-3.0"):NewLocale("WowVision", "koKR")
+if not L then return end
+
+L["of"] = "of"
+
+L["Health"] = "생명력"
+L["Power"] = "자원"
+L["XP"] = "경험치"
+L["Next Level"] = "다음 레벨"
+L["to level"] = "다음 레벨"
+L["Money"] = "돈"
+L["PVP"] = "PvP"
+
+L["Rested"] = "휴식 경험치"
+L["rested"] = "휴식 경험치"
+L["Free Slots"] = "빈 칸"
+L["Free Bag Slots"] = "빈 가방 칸"
+L["Unread"] = "읽지 않음"
+L["Senders"] = "보낸 사람"
+L["none"] = "없음"
+L["Mail from"] = "보낸 사람"
+L["New mail"] = "새 편지"
+L["Durability"] = "내구도"
+L["Lowest Item"] = "최저 내구도 아이템"
+L["lowest item"] = "최저 내구도 아이템"
+L["Broken"] = "파손"
+L["broken"] = "개 파손"
+L["no items"] = "아이템 없음"
+L["Hearthstone"] = "귀환석"
+L["ready"] = "준비 완료"
+L["Bind Location"] = "귀환 장소"
+L["Clock"] = "시계"
+L["Time"] = "시간"
